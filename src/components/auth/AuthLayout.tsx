@@ -15,7 +15,7 @@ const AuthLayout = ({ children, title, subtitle }: AuthLayoutProps) => {
         <div className="w-full max-w-md">
           <div className="mb-8">
             <h1 className="text-4xl font-bold mb-2 ">
-              Chanakya Library
+              XYZ Library
             </h1>
             <h2 className="text-2xl font-semibold text-foreground mb-2">{title}</h2>
             <p className="text-muted-foreground">{subtitle}</p>
@@ -33,7 +33,7 @@ const AuthLayout = ({ children, title, subtitle }: AuthLayoutProps) => {
           className="object-cover w-full h-full"
         />
         <div className="absolute bottom-8 left-8 right-8 text-white z-20">
-          <h3 className="text-3xl font-bold mb-2">Welcome to Chanakya Library</h3>
+          <h3 className="text-3xl font-bold mb-2">Welcome to XYZ Library</h3>
           <p className="text-lg opacity-90">Your gateway to knowledge and learning</p>
         </div>
       </div>
